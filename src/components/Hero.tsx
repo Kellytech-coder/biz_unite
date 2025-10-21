@@ -1,9 +1,10 @@
-// components/BusinessSearch.js
 export default function BusinessSearch() {
   return (
-    <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20 rounded-t-3xl text-center">
+    <section className="relative bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20 text-center">
       <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Search for a business</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          Search for a business
+        </h1>
         <p className="mb-8 text-lg">
           Search for businesses by category, location, or keywords to discover what you need today.
         </p>
@@ -17,7 +18,12 @@ export default function BusinessSearch() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 105 11a6 6 0 0012 0z" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-4.35-4.35M17 11A6 6 0 105 11a6 6 0 0012 0z"
+              />
             </svg>
             <input
               type="text"
@@ -51,6 +57,21 @@ export default function BusinessSearch() {
         <p className="mt-6 text-sm text-white">
           Find businesses near you using our smart search feature
         </p>
+      </div>
+
+      {/* 👇 Meet point curve for smooth transition to next section */}
+      <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-[0]">
+        <svg
+          className="relative block w-full h-[100px]"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44C173.81,92.41,0,120,0,120H1200V0S928.94,89.29,645.5,72.5C487.17,63.4,375.27,44.55,321.39,56.44Z"
+            fill="#fff"
+          ></path>
+        </svg>
       </div>
     </section>
   );

@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/Button";
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between gap-8 bg-gray-50 p-8 rounded-3xl">
+    <section className="flex flex-col md:flex-row items-center justify-between gap-8 bg-gray-50 p-8 bg-dark-grey">
       {/* Left Image */}
       <div className="flex-1">
         <div className="overflow-hidden rounded-2xl shadow-md">
           <Image
-            src="/public/images/Placeholderimage4.png" // replace with your image path or use next/image remote config
+            src="/images/PlaceholderImage4.png" // replace with your image path or use next/image remote config
             alt="Business presentation"
             width={600}
             height={400}
