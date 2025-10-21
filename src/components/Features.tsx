@@ -11,7 +11,7 @@ export default function HeroSection() {
       <div className="flex-1">
         <div className="overflow-hidden rounded-2xl shadow-md">
           <Image
-            src="/images/PlaceholderImage4.png" // replace with your image path or use next/image remote config
+            src="/images/PlaceholderImage4.png" 
             alt="Business presentation"
             width={600}
             height={400}
